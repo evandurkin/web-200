@@ -1,0 +1,74 @@
+h1 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 300;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ul {
+    list-style: upper-roman;
+    list-style-position: inside;
+}
+
+.solid {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 15px;
+}
+
+.dashed {
+    border-style: dashed;
+    border-width: 1px;
+    border-color:red;
+    border-radius: 15px;
+}
+
+#column-left {
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    padding:10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 15px;
+}
+#column-right {
+    width: 45%;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    padding:10px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color:red;
+    border-radius: 15px;
+}
+
+.bottom-div {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
